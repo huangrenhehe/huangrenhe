@@ -466,3 +466,115 @@
 2019-08-08 18:31:10  [ main:824 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view_en.ftl"): Not found
 2019-08-08 18:31:10  [ main:825 ] - [ DEBUG ]  TemplateLoader.findTemplateSource("logs-view/testrunner-logs-view.ftl"): Found
 2019-08-08 18:31:10  [ main:825 ] - [ DEBUG ]  Loading template for "logs-view/testrunner-logs-view.ftl"("en", UTF-8, parsed) from "jar:file:/Users/zhangwei/.m2/repository/com/aventstack/extentreports/3.0.6/extentreports-3.0.6.jar!/com/aventstack/extentreports/view/html-report/logs-view/testrunner-logs-view.ftl"
+2019-08-16 15:37:58  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2019-08-16 15:37:58  [ main:30 ] - [ DEBUG ]  Auth cache not set in the context
+2019-08-16 15:37:58  [ main:32 ] - [ DEBUG ]  Connection request: [route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-08-16 15:37:58  [ main:54 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-16 15:37:58  [ main:57 ] - [ DEBUG ]  Opening connection {}->http://zrbd.t.ziroom.com:80
+2019-08-16 15:37:58  [ main:83 ] - [ DEBUG ]  Connecting to zrbd.t.ziroom.com/10.16.24.201:80
+2019-08-16 15:37:58  [ main:89 ] - [ DEBUG ]  Connection established 10.30.122.75:55234<->10.16.24.201:80
+2019-08-16 15:37:58  [ main:90 ] - [ DEBUG ]  Executing request POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-16 15:37:58  [ main:91 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2019-08-16 15:37:58  [ main:92 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2019-08-16 15:37:58  [ main:94 ] - [ DEBUG ]  http-outgoing-0 >> POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-16 15:37:58  [ main:95 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 24
+2019-08-16 15:37:58  [ main:97 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2019-08-16 15:37:58  [ main:99 ] - [ DEBUG ]  http-outgoing-0 >> Host: zrbd.t.ziroom.com
+2019-08-16 15:37:58  [ main:100 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2019-08-16 15:37:58  [ main:101 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_151)
+2019-08-16 15:37:58  [ main:104 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-08-16 15:37:58  [ main:118 ] - [ DEBUG ]  http-outgoing-0 >> "POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1[\r][\n]"
+2019-08-16 15:37:58  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 24[\r][\n]"
+2019-08-16 15:37:58  [ main:120 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2019-08-16 15:37:58  [ main:121 ] - [ DEBUG ]  http-outgoing-0 >> "Host: zrbd.t.ziroom.com[\r][\n]"
+2019-08-16 15:37:58  [ main:122 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-08-16 15:37:58  [ main:123 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_151)[\r][\n]"
+2019-08-16 15:37:58  [ main:124 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-16 15:37:58  [ main:126 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2019-08-16 15:37:58  [ main:127 ] - [ DEBUG ]  http-outgoing-0 >> "resblockId=1111027373682"
+2019-08-16 15:37:59  [ main:239 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-16 15:37:59  [ main:239 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2019-08-16 15:37:59  [ main:240 ] - [ DEBUG ]  http-outgoing-0 << "Date: Fri, 16 Aug 2019 07:37:59 GMT[\r][\n]"
+2019-08-16 15:37:59  [ main:240 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
+2019-08-16 15:37:59  [ main:240 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-16 15:37:59  [ main:240 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-08-16 15:37:59  [ main:241 ] - [ DEBUG ]  http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-08-16 15:37:59  [ main:241 ] - [ DEBUG ]  http-outgoing-0 << "BlueWareGuid: b645235c8899eb3f[\r][\n]"
+2019-08-16 15:37:59  [ main:241 ] - [ DEBUG ]  http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-08-16 15:37:59  [ main:242 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-16 15:37:59  [ main:242 ] - [ DEBUG ]  http-outgoing-0 << "2c7[\r][\n]"
+2019-08-16 15:37:59  [ main:242 ] - [ DEBUG ]  http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xbd]T]k[0x13]A[0x14][0xfd]/[0xb][0xbe]e[0x93][0xfd][0xfe][0xc8]cj[0xb][0x82][0xb4][0xc5]VDEdvf[0x92]L[0xb3][0x1f]av[0xb6][0xd8][0x86][0x82]/[0x82]b[0xc5][0xb7]j)"[0x15]K}j[0x85]"[0xa5][0xd5][0xda]?[0xd3]l[0xe8][0xbf][0xf0]N[0xb2]IVAiE[0xdc][0xa7][0x9d]{[0xef][0x9c]{[0xce][0xd9][0xbb][0xb7][0xa7]P[0xce][0x13][0xfe]8[0xa2]i[0x8a]ZT[0xa9]+IG[0xa9]([0x4][0x9][0xa4][0xd4]{[\n]"
+2019-08-16 15:37:59  [ main:243 ] - [ DEBUG ]  http-outgoing-0 << "a[0xa9][0xe0][0xc][0x8b]y[0x14][0xc9]\[0xfe][0xe5]8?~[\n]"
+2019-08-16 15:37:59  [ main:244 ] - [ DEBUG ]  http-outgoing-0 << "[0xf9]0n[0xc1]Q[0xd7][0x9d][0xaa]i:[0xbe]e@[0xa8][0xc9]i[0xda]nd!#[0xf7])[0xe2][0x90]54[0xdd][0x85]x[0xc0][0xd6]1[0xe3]8[0xa4][0x5][0xc6]`[0xfb]l[0xf0][0xfe]([0xdf][0xdd][0x83]\[0x1b][0xa5]3a[0x92][0xe][0xa1][0xdf][0x1e]B[0x0]0[0x82]0[0xc1][0x9d][0xa2][0xb6][0xff]q?[0xb6][0xdf]?<u[0xfa][0xaf][0x8f]/[0xb7]?@E*[0x10][0x17][0x8d][0x8c][0x85][0xd3]6[0x9a]^[0xba]9[0x1b][0xaf][0xde][0xa4])[0x6]D[0x8][0xae]2[0x0][0xc4]4[0xc6][0xf4][0xe][0x12][0xb2][0x8b]a[0xdc][0x80]p[0x97]'][0xca][0xc5]Z[0x8][0xea][0x94][0xfa][0xc3]G@R[0x2].[0xb1][0xf5]Q[0x8d][0x94]3f[0xb2][0x94][0x81]?YLF[0xa0]=%-[0xce]3[0x0][0xc8][0xa9][0xd4])I[0x15][0xc1][0x6][0x8a];lhM)[0xb8][0xcc])[0x12][0x11][0x8d][0xa1]U9[0xbc][0x94][0x1][0x87][0x8][0xf1][0xe][0xfd]%1K2[0x8c][0x4]KbY[0xbf]QQ[0x4]G[0xcd]&[0xc3]S[0xb2]][0xb8][0x4]][0xe6][0xa8]d[0xab]A[0xa7]![0xfb][0xe5][0xb5][0xee][0xd0][0xc7]w[0xe7][0xf9][0xde][0xb7]J[0xff][0xe4](~^[0xd2][0xb1]Xh[0x9e][0x9a][0x83][0xb3][0x0][0xbe][0xf8][0xc4][0x98]jY[0xf5]\[0x88]Z[0xa3]J[0xe9][0xce][0xd8][0x8b][[0x4][0x1a][0xe8][0xf0]h[0x86]k[0xba][0xa6][0xe3][0xc9]+[0x18]q[0xc0]`[0x89]L[0xd5]m[0x8][0xb0][0x8]`o[0x8f][0xac][0xed])[0x2][0xb5]&[0xef]8!@[0x11]nk[0xc5]cU[0x94]x4Y[0xf0][0xa5]/[0xdf]|[0x2][0xb9]=eTei[0xae]9[0xc9]^[0x9c]n[0xe6]/^JA[0x1b]@[0x87][0xa5][\r][0x1a]&q[0xeb][0x1][0xe3]I[0x12]A[0xdf][0xf9]q[0xd7][0xbb]<[0x84]c[[0x88]n[0xbd]VcQ[0xab][0x1a][0xae]`[0x12]Wq[0x12][0xd5][0xda][0x84]au,[0xa4][0xe6]Z[0x86]Nm[0xd7]Q-[0xdd]2T[0xab][0xa9]9*[0xb2][0x3]_[0x5]j[0xc4][0xe][0xa8]F[0xc][0xec]UW[0xba][0xad][0x12][0xf0]=&[0xda][0xb][0x99][0x98]cO[0xa0][0xc5][0xdf][0xc2]I}t[0xc4][0x9b]h[0x1e]|=[0xef]on[0xfd]7G[0x2]p[0xa2]IP[0xa0][0x1a][0x9a][0x13][0xa8][0x96][0xaf][0x5]*j:[0x9a][0xea]y[0x86][0xa9]Y[0x96]g[0x5][0x94]\[0xc3][0x91]+[0xc3][0xfd][0xd6][0x11][0xbd][0x98][0x11]}[0xe2][0xc8][0xe5][0xee][0xc9]`[0xe7][0xe0][0xe2][0xec][0xd5][0xe0][0xec][0xa0][0xbf][0xf3][0xfd]gk[0x8c]IY[0xbe][0xf5][0xf9][0x1f]N[\n]"
+2019-08-16 15:37:59  [ main:244 ] - [ DEBUG ]  http-outgoing-0 << "[0xf2][0x10]v,[0x3][0x86]D[0x87][0xf9][0xb0][0x8]vT[0xdf][0xb0]]0[0xc7][0xc4]&5t[0xec]{[0xda]5|[0xb9]2[0x9c][0x1c][0xf4][0xf1][0xb8].&)[0x93][0xb]a[0xfa][0xef][0x86]H.[\r][0xd3][0xaf][0xfa][0xb6]g[0xda]V[0xe9]?_[0xe0][0x84][0xf2]q!l[0xf][0xd8][0x97]"K[0xa1]8[0xcd]0[0x86]%[0xaf]l[0xfc][0x0]R[0x8b][0xc7][0xe8][0xf3][0x5][0x0][0x0][\r][\n]"
+2019-08-16 15:37:59  [ main:245 ] - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2019-08-16 15:37:59  [ main:245 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-16 15:37:59  [ main:248 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2019-08-16 15:37:59  [ main:249 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2019-08-16 15:37:59  [ main:249 ] - [ DEBUG ]  http-outgoing-0 << Date: Fri, 16 Aug 2019 07:37:59 GMT
+2019-08-16 15:37:59  [ main:249 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: text/plain;charset=utf-8
+2019-08-16 15:37:59  [ main:250 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2019-08-16 15:37:59  [ main:250 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2019-08-16 15:37:59  [ main:250 ] - [ DEBUG ]  http-outgoing-0 << Vary: Accept-Encoding
+2019-08-16 15:37:59  [ main:251 ] - [ DEBUG ]  http-outgoing-0 << BlueWareGuid: b645235c8899eb3f
+2019-08-16 15:37:59  [ main:251 ] - [ DEBUG ]  http-outgoing-0 << Content-Encoding: gzip
+2019-08-16 15:37:59  [ main:259 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2019-08-16 15:37:59  [ main:265 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://zrbd.t.ziroom.com:80] can be kept alive indefinitely
+2019-08-16 15:37:59  [ main:266 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-16 15:37:59  [ main:280 ] - [ INFO ]  api请求信息：{"returnValue":{"error_message":"ok","data":{"districtName":"海淀","lng":"116.336942","freshBulidYear":"2017","bizcircleName":"白石桥","hasClose":"是","resblockName":"大慧寺6号院","startBuildYear":"2001","resblockEnvDesc":"","virescenceRate":"22%","propertylist":[],"buildSize":"222","resblockSurroundDesc":{"surroundCaterer":"","surroundBanking":"","surroundTreatment":"","surroundSupermarket":"","surroundEducation":""},"trafficlist":[],"parkingFee":"0","buildType":"板楼,平房","resblockPropertyDesc":"","cubageRate":"22.2","resblockFlagDesc":[],"resblockId":"1111027373682","carRatio":"1:5","imageList":[{"tagList":[{"code":102000000004,"name":"大门"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg","imageUrlWithOutFix":"/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg"},{"tagList":[{"code":102000000008,"name":"绿化"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg","imageUrlWithOutFix":"/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg"},{"tagList":[{"code":102100000001,"name":"项目位置图"},{"code":4072,"name":"新房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg","imageUrlWithOutFix":"/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg"}],"resblockPositionDesc":"","lat":"39.958354","resblockOrderDesc":""},"status":"success"},"requestMethod":"POST","responseTime":"0分0秒274毫秒","returnStatusCode":"200","requestURL":"http://zrbd.t.ziroom.com/webBuilding/webBuilding!getBlockInfoByBlockId.do","requestParam":{"resblockId":"1111027373682"}}
+2019-08-16 15:48:36  [ main:0 ] - [ DEBUG ]  CookieSpec selected: default
+2019-08-16 15:48:36  [ main:15 ] - [ DEBUG ]  Auth cache not set in the context
+2019-08-16 15:48:36  [ main:18 ] - [ DEBUG ]  Connection request: [route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+2019-08-16 15:48:36  [ main:34 ] - [ DEBUG ]  Connection leased: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-16 15:48:36  [ main:38 ] - [ DEBUG ]  Opening connection {}->http://zrbd.t.ziroom.com:80
+2019-08-16 15:48:36  [ main:46 ] - [ DEBUG ]  Connecting to zrbd.t.ziroom.com/10.16.24.201:80
+2019-08-16 15:48:36  [ main:51 ] - [ DEBUG ]  Connection established 10.30.122.75:56077<->10.16.24.201:80
+2019-08-16 15:48:36  [ main:52 ] - [ DEBUG ]  Executing request POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-16 15:48:36  [ main:53 ] - [ DEBUG ]  Target auth state: UNCHALLENGED
+2019-08-16 15:48:36  [ main:54 ] - [ DEBUG ]  Proxy auth state: UNCHALLENGED
+2019-08-16 15:48:36  [ main:55 ] - [ DEBUG ]  http-outgoing-0 >> POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1
+2019-08-16 15:48:36  [ main:56 ] - [ DEBUG ]  http-outgoing-0 >> Content-Length: 24
+2019-08-16 15:48:36  [ main:56 ] - [ DEBUG ]  http-outgoing-0 >> Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+2019-08-16 15:48:36  [ main:57 ] - [ DEBUG ]  http-outgoing-0 >> Host: zrbd.t.ziroom.com
+2019-08-16 15:48:36  [ main:57 ] - [ DEBUG ]  http-outgoing-0 >> Connection: Keep-Alive
+2019-08-16 15:48:36  [ main:57 ] - [ DEBUG ]  http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_151)
+2019-08-16 15:48:36  [ main:58 ] - [ DEBUG ]  http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2019-08-16 15:48:36  [ main:59 ] - [ DEBUG ]  http-outgoing-0 >> "POST /webBuilding/webBuilding!getBlockInfoByBlockId.do HTTP/1.1[\r][\n]"
+2019-08-16 15:48:36  [ main:59 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Length: 24[\r][\n]"
+2019-08-16 15:48:36  [ main:60 ] - [ DEBUG ]  http-outgoing-0 >> "Content-Type: application/x-www-form-urlencoded; charset=UTF-8[\r][\n]"
+2019-08-16 15:48:36  [ main:61 ] - [ DEBUG ]  http-outgoing-0 >> "Host: zrbd.t.ziroom.com[\r][\n]"
+2019-08-16 15:48:36  [ main:61 ] - [ DEBUG ]  http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2019-08-16 15:48:36  [ main:61 ] - [ DEBUG ]  http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.2 (Java/1.8.0_151)[\r][\n]"
+2019-08-16 15:48:36  [ main:62 ] - [ DEBUG ]  http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2019-08-16 15:48:36  [ main:62 ] - [ DEBUG ]  http-outgoing-0 >> "[\r][\n]"
+2019-08-16 15:48:36  [ main:62 ] - [ DEBUG ]  http-outgoing-0 >> "resblockId=1111027373682"
+2019-08-16 15:48:36  [ main:71 ] - [ DEBUG ]  http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2019-08-16 15:48:36  [ main:71 ] - [ DEBUG ]  http-outgoing-0 << "Server: nginx[\r][\n]"
+2019-08-16 15:48:36  [ main:72 ] - [ DEBUG ]  http-outgoing-0 << "Date: Fri, 16 Aug 2019 07:48:36 GMT[\r][\n]"
+2019-08-16 15:48:36  [ main:72 ] - [ DEBUG ]  http-outgoing-0 << "Content-Type: text/plain;charset=utf-8[\r][\n]"
+2019-08-16 15:48:36  [ main:72 ] - [ DEBUG ]  http-outgoing-0 << "Transfer-Encoding: chunked[\r][\n]"
+2019-08-16 15:48:36  [ main:73 ] - [ DEBUG ]  http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+2019-08-16 15:48:36  [ main:73 ] - [ DEBUG ]  http-outgoing-0 << "Vary: Accept-Encoding[\r][\n]"
+2019-08-16 15:48:36  [ main:73 ] - [ DEBUG ]  http-outgoing-0 << "BlueWareGuid: 4ab40dde76db6c15[\r][\n]"
+2019-08-16 15:48:36  [ main:74 ] - [ DEBUG ]  http-outgoing-0 << "Content-Encoding: gzip[\r][\n]"
+2019-08-16 15:48:36  [ main:74 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-16 15:48:36  [ main:74 ] - [ DEBUG ]  http-outgoing-0 << "2c7[\r][\n]"
+2019-08-16 15:48:36  [ main:75 ] - [ DEBUG ]  http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xbd]T]k[0x13]A[0x14][0xfd]/[0xb][0xbe]e[0x93][0xfd][0xfe][0xc8]cj[0xb][0x82][0xb4][0xc5]VDEdvf[0x92]L[0xb3][0x1f]av[0xb6][0xd8][0x86][0x82]/[0x82]b[0xc5][0xb7]j)"[0x15]K}j[0x85]"[0xa5][0xd5][0xda]?[0xd3]l[0xe8][0xbf][0xf0]N[0xb2]IVAiE[0xdc][0xa7][0x9d]{[0xef][0x9c]{[0xce][0xd9][0xbb][0xb7][0xa7]P[0xce][0x13][0xfe]8[0xa2]i[0x8a]ZT[0xa9]+IG[0xa9]([0x4][0x9][0xa4][0xd4]{[\n]"
+2019-08-16 15:48:36  [ main:75 ] - [ DEBUG ]  http-outgoing-0 << "a[0xa9][0xe0][0xc][0x8b]y[0x14][0xc9]\[0xfe][0xe5]8?~[\n]"
+2019-08-16 15:48:36  [ main:76 ] - [ DEBUG ]  http-outgoing-0 << "[0xf9]0n[0xc1]Q[0xd7][0x9d][0xaa]i:[0xbe]e@[0xa8][0xc9]i[0xda]nd!#[0xf7])[0xe2][0x90]54[0xdd][0x85]x[0xc0][0xd6]1[0xe3]8[0xa4][0x5][0xc6]`[0xfb]l[0xf0][0xfe]([0xdf][0xdd][0x83]\[0x1b][0xa5]3a[0x92][0xe][0xa1][0xdf][0x1e]B[0x0]0[0x82]0[0xc1][0x9d][0xa2][0xb6][0xff]q?[0xb6][0xdf]?<u[0xfa][0xaf][0x8f]/[0xb7]?@E*[0x10][0x17][0x8d][0x8c][0x85][0xd3]6[0x9a]^[0xba]9[0x1b][0xaf][0xde][0xa4])[0x6]D[0x8][0xae]2[0x0][0xc4]4[0xc6][0xf4][0xe][0x12][0xb2][0x8b]a[0xdc][0x80]p[0x97]'][0xca][0xc5]Z[0x8][0xea][0x94][0xfa][0xc3]G@R[0x2].[0xb1][0xf5]Q[0x8d][0x94]3f[0xb2][0x94][0x81]?YLF[0xa0]=%-[0xce]3[0x0][0xc8][0xa9][0xd4])I[0x15][0xc1][0x6][0x8a];lhM)[0xb8][0xcc])[0x12][0x11][0x8d][0xa1]U9[0xbc][0x94][0x1][0x87][0x8][0xf1][0xe][0xfd]%1K2[0x8c][0x4]KbY[0xbf]QQ[0x4]G[0xcd]&[0xc3]S[0xb2]][0xb8][0x4]][0xe6][0xa8]d[0xab]A[0xa7]![0xfb][0xe5][0xb5][0xee][0xd0][0xc7]w[0xe7][0xf9][0xde][0xb7]J[0xff][0xe4](~^[0xd2][0xb1]Xh[0x9e][0x9a][0x83][0xb3][0x0][0xbe][0xf8][0xc4][0x98]jY[0xf5]\[0x88]Z[0xa3]J[0xe9][0xce][0xd8][0x8b][[0x4][0x1a][0xe8][0xf0]h[0x86]k[0xba][0xa6][0xe3][0xc9]+[0x18]q[0xc0]`[0x89]L[0xd5]m[0x8][0xb0][0x8]`o[0x8f][0xac][0xed])[0x2][0xb5]&[0xef]8!@[0x11]nk[0xc5]cU[0x94]x4Y[0xf0][0xa5]/[0xdf]|[0x2][0xb9]=eTei[0xae]9[0xc9]^[0x9c]n[0xe6]/^JA[0x1b]@[0x87][0xa5][\r][0x1a]&q[0xeb][0x1][0xe3]I[0x12]A[0xdf][0xf9]q[0xd7][0xbb]<[0x84]c[[0x88]n[0xbd]VcQ[0xab][0x1a][0xae]`[0x12]Wq[0x12][0xd5][0xda][0x84]au,[0xa4][0xe6]Z[0x86]Nm[0xd7]Q-[0xdd]2T[0xab][0xa9]9*[0xb2][0x3]_[0x5]j[0xc4][0xe][0xa8]F[0xc][0xec]UW[0xba][0xad][0x12][0xf0]=&[0xda][0xb][0x99][0x98]cO[0xa0][0xc5][0xdf][0xc2]I}t[0xc4][0x9b]h[0x1e]|=[0xef]on[0xfd]7G[0x2]p[0xa2]IP[0xa0][0x1a][0x9a][0x13][0xa8][0x96][0xaf][0x5]*j:[0x9a][0xea]y[0x86][0xa9]Y[0x96]g[0x5][0x94]\[0xc3][0x91]+[0xc3][0xfd][0xd6][0x11][0xbd][0x98][0x11]}[0xe2][0xc8][0xe5][0xee][0xc9]`[0xe7][0xe0][0xe2][0xec][0xd5][0xe0][0xec][0xa0][0xbf][0xf3][0xfd]gk[0x8c]IY[0xbe][0xf5][0xf9][0x1f]N[\n]"
+2019-08-16 15:48:36  [ main:77 ] - [ DEBUG ]  http-outgoing-0 << "[0xf2][0x10]v,[0x3][0x86]D[0x87][0xf9][0xb0][0x8]vT[0xdf][0xb0]]0[0xc7][0xc4]&5t[0xec]{[0xda]5|[0xb9]2[0x9c][0x1c][0xf4][0xf1][0xb8].&)[0x93][0xb]a[0xfa][0xef][0x86]H.[\r][0xd3][0xaf][0xfa][0xb6]g[0xda]V[0xe9]?_[0xe0][0x84][0xf2]q!l[0xf][0xd8][0x97]"K[0xa1]8[0xcd]0[0x86]%[0xaf]l[0xfc][0x0]R[0x8b][0xc7][0xe8][0xf3][0x5][0x0][0x0][\r][\n]"
+2019-08-16 15:48:36  [ main:77 ] - [ DEBUG ]  http-outgoing-0 << "0[\r][\n]"
+2019-08-16 15:48:36  [ main:77 ] - [ DEBUG ]  http-outgoing-0 << "[\r][\n]"
+2019-08-16 15:48:36  [ main:83 ] - [ DEBUG ]  http-outgoing-0 << HTTP/1.1 200 OK
+2019-08-16 15:48:36  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Server: nginx
+2019-08-16 15:48:36  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Date: Fri, 16 Aug 2019 07:48:36 GMT
+2019-08-16 15:48:36  [ main:84 ] - [ DEBUG ]  http-outgoing-0 << Content-Type: text/plain;charset=utf-8
+2019-08-16 15:48:36  [ main:85 ] - [ DEBUG ]  http-outgoing-0 << Transfer-Encoding: chunked
+2019-08-16 15:48:36  [ main:85 ] - [ DEBUG ]  http-outgoing-0 << Connection: keep-alive
+2019-08-16 15:48:36  [ main:85 ] - [ DEBUG ]  http-outgoing-0 << Vary: Accept-Encoding
+2019-08-16 15:48:36  [ main:87 ] - [ DEBUG ]  http-outgoing-0 << BlueWareGuid: 4ab40dde76db6c15
+2019-08-16 15:48:36  [ main:87 ] - [ DEBUG ]  http-outgoing-0 << Content-Encoding: gzip
+2019-08-16 15:48:36  [ main:93 ] - [ DEBUG ]  Connection can be kept alive indefinitely
+2019-08-16 15:48:36  [ main:101 ] - [ DEBUG ]  Connection [id: 0][route: {}->http://zrbd.t.ziroom.com:80] can be kept alive indefinitely
+2019-08-16 15:48:36  [ main:102 ] - [ DEBUG ]  Connection released: [id: 0][route: {}->http://zrbd.t.ziroom.com:80][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+2019-08-16 15:48:36  [ main:123 ] - [ INFO ]  api请求信息：{"returnValue":{"error_message":"ok","data":{"districtName":"海淀","lng":"116.336942","freshBulidYear":"2017","bizcircleName":"白石桥","hasClose":"是","resblockName":"大慧寺6号院","startBuildYear":"2001","resblockEnvDesc":"","virescenceRate":"22%","propertylist":[],"buildSize":"222","resblockSurroundDesc":{"surroundCaterer":"","surroundBanking":"","surroundTreatment":"","surroundSupermarket":"","surroundEducation":""},"trafficlist":[],"parkingFee":"0","buildType":"板楼,平房","resblockPropertyDesc":"","cubageRate":"22.2","resblockFlagDesc":[],"resblockId":"1111027373682","carRatio":"1:5","imageList":[{"tagList":[{"code":102000000004,"name":"大门"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg","imageUrlWithOutFix":"/hdic-resblock/7421e576-4142-4f06-a5b9-020d5be0d2c8.jpg"},{"tagList":[{"code":102000000008,"name":"绿化"},{"code":4073,"name":"二手房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg","imageUrlWithOutFix":"/hdic-resblock/b414fdab-206b-490b-af60-882304484bed.jpg"},{"tagList":[{"code":102100000001,"name":"项目位置图"},{"code":4072,"name":"新房"}],"isBelongZiroom":"N","imageUrl":"http://img.ljcdn.com/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg","imageUrlWithOutFix":"/hdic-resblock/a8ac6422-41b9-4dc6-9257-af3c3e21c980.jpg"}],"resblockPositionDesc":"","lat":"39.958354","resblockOrderDesc":""},"status":"success"},"requestMethod":"POST","responseTime":"0分0秒108毫秒","returnStatusCode":"200","requestURL":"http://zrbd.t.ziroom.com/webBuilding/webBuilding!getBlockInfoByBlockId.do","requestParam":{"resblockId":"1111027373682"}}

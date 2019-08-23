@@ -5,7 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 /**
- * Created by zhangwei on 2019/8/8
+ * modify by huangrenhe on 2019/8/16
  **/
 
 public class QaAtuoDemoTest {
@@ -25,5 +25,8 @@ public class QaAtuoDemoTest {
         JSONObject dataJson = JSONObject.fromObject(data);
         String districtName = dataJson.getString("districtName");
         Assert.assertEquals(districtName,"海淀","获取districtName值");
+        System.out.println("================================");
+        System.out.println(districtName);
+        System.out.println("================================");
     }
 }
