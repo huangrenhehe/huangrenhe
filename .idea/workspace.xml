@@ -2,33 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f46f9a91-2465-4a8b-8cbb-1b7d2966af85" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huangrenhe/src/main/java/FisrtApiMethod.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huangrenhe/src/test/java/FisrtApiMethodTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_20_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_json_lib_json_lib_2_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_8_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huangrenhe/huangrenhe.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/huangrenhe/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="DELETED" beforePath="D:\IDEA work\serviceStudy\zhangw5\pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\IDEA work\serviceStudy\zhangw5\src\test\java\TestDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\IDEA work\serviceStudy\zhangw5\zhangw5.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_ziroom_qa_automation_base_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_ziroom_qa_automation_base_1_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qaservice/src/main/java/com/test/QaAtuoDemo.java" afterPath="$PROJECT_DIR$/qaservice/src/main/java/com/test/QaAtuoDemo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qaservice/src/main/java/com/test/QaAtuoDemoTest.java" afterPath="$PROJECT_DIR$/qaservice/src/main/java/com/test/QaAtuoDemoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qaservice/log.txt" afterPath="$PROJECT_DIR$/qaservice/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qaservice/pom.xml" afterPath="$PROJECT_DIR$/qaservice/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qaservice/qaservice.iml" afterPath="$PROJECT_DIR$/qaservice/qaservice.iml" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__bsh_bsh_2_0b1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__com_alibaba_fastjson_1_2_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__com_beust_jcommander_1_72.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__com_google_code_findbugs_jsr305_2_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__com_google_guava_guava_19_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__com_google_inject_guice_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__com_jcraft_jsch_0_1_48.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__com_oracle_ojdbc14_10_2_0_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__com_ziroom_tech_scaffold_scaffold_boot_1_0_0_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__commons_codec_commons_codec_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__commons_io_commons_io_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__commons_lang_commons_lang_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__concurrent_concurrent_1_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__dom4j_dom4j_1_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__javax_inject_javax_inject_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__junit_junit_3_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__log4j_log4j_1_2_14.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__net_sf_json_lib_json_lib_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_httpcomponents_fluent_hc_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_cache_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_4_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_maven_aether_provider_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_maven_artifact_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_maven_core_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_maven_model_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_maven_model_builder_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_maven_plugin_api_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_maven_repository_metadata_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_maven_settings_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_maven_settings_builder_3_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_plugins_maven_resources_plugin_3_0_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_shared_maven_filtering_3_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_maven_shared_maven_shared_utils_3_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_apache_velocity_velocity_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_codehaus_plexus_plexus_classworlds_2_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_codehaus_plexus_plexus_interpolation_1_24.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_codehaus_plexus_plexus_utils_3_0_24.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_jsoup_jsoup_1_8_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_aether_aether_api_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_aether_aether_impl_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_aether_aether_spi_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_aether_aether_util_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_plexus_plexus_build_api_0_0_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_plexus_plexus_cipher_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_plexus_plexus_sec_dispatcher_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_sisu_sisu_guice_noaop_2_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_sisu_sisu_inject_bean_1_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_sonatype_sisu_sisu_inject_plexus_1_4_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__org_testng_testng_6_14_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__qdox_qdox_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__redis_clients_jedis_2_9_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\serviceStudy\.idea\libraries\Maven__xml_apis_xml_apis_1_0_b2.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/zhangw5/target/" />
@@ -70,6 +105,7 @@
         <option value="黄人赫" />
       </list>
     </option>
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -142,6 +178,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -172,7 +209,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -180,7 +216,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../huangrenhe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -688,6 +724,7 @@
       <workItem from="1566437519697" duration="2799000" />
       <workItem from="1566456573601" duration="8187000" />
       <workItem from="1566464786386" duration="1180000" />
+      <workItem from="1566530915705" duration="139000" />
     </task>
     <servers />
   </component>
@@ -709,10 +746,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27574000" />
+    <option name="totallyTimeSpent" value="27713000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1045,7 +1082,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23161764" vertical-offset="0" max-vertical-offset="35172">
           <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1053,7 +1089,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15978456" vertical-offset="1099" max-vertical-offset="1728">
           <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1061,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7311412" vertical-offset="540" max-vertical-offset="5436">
           <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
